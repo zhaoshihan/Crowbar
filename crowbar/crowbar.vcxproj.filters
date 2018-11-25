@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FlexBison">
+      <UniqueIdentifier>{f8571234-a75d-4a11-8d37-da6ee9a68c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeneratedFiles">
+      <UniqueIdentifier>{98888799-ff6d-4a05-8c60-c85d24088332}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CRB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRB_dev.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="crowbar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DBG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MEM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="y.tab.h">
+      <Filter>GeneratedFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="create.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="error_message.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eval.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="execute.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="native.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="storage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="string_pool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="y.tab.c">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="yy.lex.c">
+      <Filter>GeneratedFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="lexer.l">
+      <Filter>FlexBison</Filter>
+    </CustomBuild>
+    <CustomBuild Include="parser.y">
+      <Filter>FlexBison</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.crb">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test1.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
