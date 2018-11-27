@@ -34,6 +34,7 @@ main(int argc, char **argv)
     //}
     interpreter = CRB_create_interpreter();
     CRB_compile(interpreter, fp);
+
     CRB_interpret(interpreter);
     CRB_dispose_interpreter(interpreter);
 

@@ -210,6 +210,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="test1.txt" />
+    <Text Include="新建文本文档.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
